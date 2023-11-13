@@ -12,7 +12,8 @@ Hardware you need :
 - Stepper driver TMC2209 (best) or DRV8825 or A4988 (1 per stepper)
 - Dupont connectors
 
-install arduino on your computer and open the testCybotWithSpeedyStepper.ino sketch.
+Install arduino on your computer and open the testCybotWithSpeedyStepper.ino sketch.
+Add SpeedyStepper in Library Manager or from here https://github.com/Stan-Reifel/SpeedyStepper
 
 1) Plug the Shield to the arduino mega
 2) plug the driver to the driver expension board (check the direction ; ground at the opposite of the vin)
