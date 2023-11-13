@@ -1,7 +1,7 @@
 # cybot_arduino
 Basic arduino project to run steppers with arduino
 
-This project is a very simple setup to driver steppers for the cybot robot arm.
+This project is a very simple setup to drive steppers for the cybot robot arm.
 Hardware you need :
 
 - Power supply 24V
