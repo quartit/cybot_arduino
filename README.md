@@ -20,9 +20,10 @@ install arduino on your computer and open the testCybotWithSpeedyStepper.ino ske
 4) connect EN + STEP + DIR to MEGA shield pin 14 + 15 + 16
 5) connect power supply + and - to Driver expension board + and -
 6) connect arduino USB to computer and upload the project.
-7) check vref of all drivers , see page https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988/
-8) Open serial monitor and launch the following command : move X100/X
+7) IMPORTANT ! check vref of all drivers , see page https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988/
+8) Open serial monitor and launch the following command : move X1000/X
 
 You should now have the stepper moving.
 Now repeat the process with all the steppers you have and the new connection pin :)
 You should be able to add new code very easily and implement other commands  
+--> try first with stepper motors not assembled to the robot !
