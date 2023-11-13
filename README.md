@@ -9,7 +9,7 @@ Hardware you need :
 - Arduino MEGA
 - Arduino MEGA Sensor Shield V2.0 https://www.aliexpress.com/w/wholesale-Arduino-MEGA-Sensor-Shield-V2.0.html?spm=a2g0o.detail.search.0
 - Stepper Motor Driver Expension Board (1 per stepper) https://www.aliexpress.com/w/wholesale-42-Stepper-Motor-Driver-Expansion-Board.html?spm=a2g0o.productlist.search.0
-- Stepper driver TMC2208 (best) or DRV8825 or A4988 (1 per stepper)
+- Stepper driver TMC2209 (best) or DRV8825 or A4988 (1 per stepper)
 - Dupont connectors
 
 install arduino on your computer and open the testCybotWithSpeedyStepper.ino sketch.
