@@ -18,10 +18,11 @@ install arduino on your computer and open the testCybotWithSpeedyStepper.ino ske
 2) plug the driver to the driver expension board (check the direction ; ground at the opposite of the vin)
 3) connect with dupont wire the V and G of the driver expension to a 5v and ground of the arduino shield
 4) connect EN + STEP + DIR to MEGA shield pin 14 + 15 + 16
-5) connect power supply + and - to Driver expension board + and -
-6) connect arduino USB to computer and upload the project.
-7) IMPORTANT ! check vref of all drivers , see page https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988/
-8) Open serial monitor and launch the following command : move X1000/X
+5) connect stepper motor wires to the driver expension
+6) connect power supply + and - to Driver expension board + and -
+7) connect arduino USB to computer and upload the project.
+8) IMPORTANT ! check vref of all drivers , see page https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988/
+9) Open serial monitor and launch the following command : move X1000/X
 
 You should now have the stepper moving.
 Now repeat the process with all the steppers you have and the new connection pin :)
